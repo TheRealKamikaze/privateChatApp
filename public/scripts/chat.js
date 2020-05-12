@@ -1,4 +1,4 @@
-let socket  = io.connect('https://chatTag.herokuapp.com');
+let socket  = io.connect('https://friendlychatting.herokuapp.com');
     socket.on('send-username',async (event)=>{
       $.getJSON("/api/user_data",function(data){
         // if(error)
@@ -11,7 +11,7 @@ let socket  = io.connect('https://chatTag.herokuapp.com');
 let message = document.getElementById('message'),
     sendMessage = document.getElementById('send'),
     output = document.getElementById('output');
-
+friendlychatting
 
 sendMessage.addEventListener('click',async ()=>{
   let text ={
