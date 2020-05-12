@@ -8,7 +8,7 @@ let bodyparser      = require("body-parser"),
     User            = require("./models/user"),
     methodOverride  = require("method-override");
 
-mongoose.connect('mongodb+srv://tarun:hGORlyhChSqBD81J@cluster0-a0vpp.mongodb.net/chat?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true})
+// mongoose.connect('mongodb+srv://tarun:hGORlyhChSqBD81J@cluster0-a0vpp.mongodb.net/chat?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true})
 app.use(express.static('public'));
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
