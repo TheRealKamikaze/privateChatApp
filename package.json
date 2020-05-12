@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealKamikaze/privateChatApp.git"
+  },
   "author": "Tarun",
   "license": "ISC",
   "dependencies": {
